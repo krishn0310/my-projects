@@ -1,0 +1,14 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Terms and Conditions | Flightbuzz</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+            <img src="{% static 'img/terms-and-conditions.png' %}" alt="Privacy Policy" class="privacybannerimg">
+   
+{% endblock%}
